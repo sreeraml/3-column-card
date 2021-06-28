@@ -1,0 +1,130 @@
+body{
+  background-color:hsl(0, 0%, 95%);
+}
+
+ /* div container  */
+
+.container{
+justify-content: center;
+display: flex;
+color: white;
+background-color: hsl(0, 0%, 95%);
+}
+
+/* 3-column card-section   */
+
+ .section-card{
+   margin: 10%;
+ }
+
+@media screen and (max-width:992px) {
+.row{
+ padding: 15%;
+}
+}
+
+/* cards */
+
+.card-1{
+  background-color: hsl(31, 77%, 52%);
+
+  border-radius: 2% 0 0 2%;
+}
+@media  screen and (max-width:992px){
+.card-1{
+ border-radius: 2% 2% 0 0;
+
+}
+}
+
+.card-2{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-3{
+  background-color: hsl(179, 100%, 13%);
+ border-radius: 0 2% 2% 0;
+}
+@media  screen and (max-width:992px){
+.card-3{
+ border-radius: 0 0 2% 2%;
+}
+}
+
+/* card headings,paragraphs and paddings */
+
+.card-headings{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: bold;
+  padding: 15% 0;
+  color:hsl(0, 0%, 95%);
+
+}
+@media  screen and (max-width:992px) {
+.card-headings{
+  padding: 10% 0;
+}
+}
+
+.card-paragraphs{
+  font-family: 'Lexend Deca', sans-serif;
+  padding-bottom: 30%;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+@media screen and (max-width:992px) {
+  .card-paragraphs{
+    padding-bottom: 1%;
+  }
+}
+
+.card-padding{
+  padding: 5% 5%;
+ line-height: 1.5rem;
+}
+@media  screen and (max-width:992px) {
+  .card-padding{
+    padding: 13% 13%;
+    line-height: 1.5rem;
+  }
+}
+
+/* button styles */
+
+.btn-1{
+  background-color:  hsl(0, 0%, 95%);
+ border: 2px solid hsl(0, 0%, 95%) ;
+ text-decoration: none;
+ display: inline-block;
+ cursor: pointer;
+ border-radius: 50px;
+  margin: 4px 2px;
+  padding: 10px 28px;
+}
+.btn-1:hover{
+  background-color:inherit;
+  border: 2px solid hsl(0, 0%, 95%);
+  color:hsl(0, 0%, 95%);
+}
+
+.btn1{
+   color: hsl(31, 77%, 52%);
+}
+.btn1:hover{
+  color:hsl(0, 0%, 95%);
+}
+
+.btn2{
+   color:  hsl(184, 100%, 22%) ;
+}
+.btn2:hover{
+  color:hsl(0, 0%, 95%);
+}
+
+
+.btn3{
+   color:hsl(179, 100%, 13%)   ;
+}
+.btn3:hover{
+  color:hsl(0, 0%, 95%);
+}
